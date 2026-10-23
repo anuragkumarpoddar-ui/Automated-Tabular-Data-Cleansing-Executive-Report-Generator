@@ -66,15 +66,25 @@ Choose a metric column from the Value (Numeric column) dropdown[cite: 1].
 4.Generate & Export Visuals: Select a visualization style (Bar, Column, Pie, or Line) and click Preview Chart[cite: 1]. Click Export Chart (PNG) to save a high-DPI image to your working directory[cite: 1].
 
 ## 📂 Project Architecture
+
 ├── CorporateReportBuilder (Main Application Class)
+
 │   ├── _build_ui()              # Initializes Tkinter frames, dropdowns, Treeview, and chart containers
+
 │   ├── _safe_numeric_convert()  # Strips formatting characters and coerces strings to numeric values
+
 │   ├── browse_file()            # Handles OS file selection dialog
+
 │   ├── read_file()              # Loads data, profiles shape/columns, and runs heuristic column classification
+
 │   ├── preview_report()         # Executes string cleansing, null removal, GroupBy aggregation, and sorting
+
 │   ├── _render_table()          # Formats floats and updates the Tkinter Treeview widget
+
 │   ├── preview_chart()          # Slices top N records and renders Matplotlib figures onto the GUI canvas
+
 │   ├── export_report()          # Writes aggregated DataFrames to .xlsx or .csv in the source directory
+
 │   └── export_chart()           # Exports the active Matplotlib figure as a 200 DPI .png file
 
 ## 🔮 Future Enhancements
