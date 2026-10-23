@@ -9,6 +9,8 @@
 The **Automated Tabular Data Cleansing & Executive Report Generator** (`CorporateReportBuilder`) is a Python-based desktop application designed to streamline ad-hoc data analysis and executive reporting[cite: 1]. 
 
 In corporate environments, raw datasets frequently suffer from formatting inconsistencies—such as numeric values stored as strings with comma separators, unstandardized categorical text, and missing values[cite: 1]. This tool automates the ingestion, sanitization, aggregation, and visualization of raw tabular files (`.csv`, `.xlsx`, `.xls`), enabling users to generate clean summary tables and publication-ready charts through an intuitive graphical interface without writing a single line of code[cite: 1].
+<img width="1370" height="910" alt="Screenshot 2026-10-23 005321" src="https://github.com/user-attachments/assets/cb8f4962-08a9-4480-9406-e4217ab27f33" />
+
 
 ---
 
